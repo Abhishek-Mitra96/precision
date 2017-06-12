@@ -35,10 +35,10 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a href="/" class="pull-left brand"><img src="img/nirmal_logo.png" width="80" >&nbsp;&nbsp;<strong style="color:red;font-size:120%;" >NIRMAL GROUP</strong></a>  
+                    <a href="/" class="pull-left brand"><img src="img/nirmal_logo.png" width="80" >&nbsp;&nbsp;<strong style="color:red;font-size:120%;" >PRECISION GROUP</strong></a>  
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right pad_head">
                         <li class="dropdown">
                             <a href="/" style="font-weight:bolder">Home</a>
                         </li>
@@ -46,152 +46,48 @@
                       
                          <li class="dropdown activate">
                            <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder;" data-toggle="dropdown">About us</a>
-                         <ul class="dropdown-menu">
-                                <li style="border-bottom:solid 1px white;"><a href="about">Company Profile</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="vision-mission">Vision and Mission</a></li>
-                                <!-- <li><a href="management.php">Management Profile</a></li> -->
-                          </ul>
-                            </li>
+                             <ul class="dropdown-menu position_submenu" style="padding-bottom: 0px">
+                                    <li><a href="about">Company Profile</a></li>
+                                    <li><a href="vision-mission">Vision and Mission</a></li>
+                                    <!-- <li><a href="management.php">Management Profile</a></li> -->
+                              </ul>
+                          </li>
                         <!--menu blog li end here-->
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="career" style="font-weight:bolder">Careers</a>
-                        </li>
+                        </li> -->
                         
                         <!-- mega dropdown for desktop-->
                            
-                        <li class="dropdown yamm-fw activate mobile2">
-                           <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder" data-toggle="dropdown">Products</a>
-                            <ul class="dropdown-menu drop" style="width:990px;">
-                                <li>
-                                    <div class="yamm-content">
-                                        <div class="row">
-
-                                            <div class="col-sm-4" id="back">
-                                               
-                                                <ul class="nav mega-vertical-nav">        
-                                                    <p style="color:white;text-align:justify; margin: 110px 0px 20px 0px;font: 600 14px/20px 'Open Sans', Arial, sans-serif, Helvetica"><b>Nirmal Group has now ventured into Engineering, Procurement and Construction of Transmission lines. The group is now actively bidding for projects, both in the private and public sector companies.</b></p>
-                                                    <p><a href="about" style="text-transform: lowercase; color: orange; padding:0px">More...</a></p>
-                                                    <hr>
-                                                    <a href="infrastructure.php" class="btn btn-warning">Featured Projects</a>
-                                                </ul>
-                                            </div>
-                                            <div class="col-sm-1"></div>
-                                            <div class="col-sm-7">
-                                            <h4 style="color:white">Products</h4>
-                                            <div class="row">
-
-                                                <div class="col-sm-3">
-                                                   
-                                                    <ul class="nav mega-vertical-nav">
-                                                        <li><a href="wire.php" style="border-bottom:0px;"><img class="one" src="img/wires1.jpg"></a></li>
-                                                    </ul>
-                                                 <center class="cen"><h3 class="cat"><b>Wires</b></h3></center>
-                                                    </div>
-    
-                                                    <div class="col-sm-3">
-                                                        
-                                                        <ul class="nav mega-vertical-nav">
-                                                            <li><a href="strandedwires.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/stranded.jpg"></a></li>
-                                                        </ul>
-                                                     <center class="cen"><h3 class="cat">Stranded Steel Wires </h3></center>
-                                                        </div>
-    
-                                                        <div class="col-sm-3" >
-                                                        
-                                                        <ul class="nav mega-vertical-nav">
-                                                            <li><a href="conductor.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/conductors.jpg"></a></li> 
-                                                        </ul>
-                                                        <center class="cen"><h3 class="cat">Conductors</h3></center>
-                                                     </div>
-    
-                                                <div class="col-sm-3" >
-                                                        
-                                                        <ul class="nav mega-vertical-nav">
-                                                            <li><a href="csteel.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/construction_steel.png"></a></li>
-                                                        </ul>
-                                                     <center class="cen"><h3 class="cat">Construction steel </h3></center>
-                                                        </div>
-                                            </div> 
-                                        
-                                            <div class="row">
-                                           
-                                                 <div class="col-sm-3">
-                                                    
-                                                    <ul class="nav mega-vertical-nav">
-                                                        <li><a href="rolled.php" style="border-bottom:0px;"><img class="one" src="img/rolled.jpg"></a></li> 
-                                                    </ul>
-                                                 <center class="cen"><h3 class="cat">Hot Rolled Products</h3></center>
-                                                </div>
-                                            
-
-                                             <div class="col-sm-3">
-                                                       
-                                                        <ul class="nav mega-vertical-nav">
-                                                            <li><a href="steelandpipes.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/steel_pipes.jpg"></a></li>
-                                                        </ul>
-                                                      <center class="cen"><h3 class="cat">Steel Pipes<br>and Sections </h3></center>
-                                                </div>
-
-                                                <div class="col-sm-3" >
-                                                    
-                                                    <ul class="nav mega-vertical-nav">
-                                                        <li><a href="electrodes.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/welding.jpg"></a></li> 
-                                                    </ul>
-                                                 <center class="cen"><h3 class="cat">Welding<br>Solutions</h3></center>
-                                                </div>
-                                                 
-                                                 <div class="col-sm-3">
-                                                        
-                                                        <ul class="nav mega-vertical-nav">
-                                                            <li><a href="fabrication.php" style="border-bottom:0px;"><img class="one" src="img/products/dropdown/fabrication.jpg"></a></li>
-                                                        </ul>
-                                                     <center class="cen"><h3 class="cat">Fabrication </h3></center>
-                                                    </div>
-                                                    
-
-                                                </div>
-                                                 
-                                              </div>
-                                        
-                                    </div>
-                                </div>
-                                </li>
-                            </ul>
+                        <li class="dropdown activate">
+                           <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder;" data-toggle="dropdown">products</a>
+                         <ul class="dropdown-menu position_submenu" style="padding-bottom: 0px">
+                                <li><a href="officeaddress.php">List 1</a></li>
+                                
+                                <li><a href="contact.php">List 2</a></li>
+                          </ul>
                         </li> <!--menu Features li end here-->
 
                         <!-- product dropdown for mobiles -->
                         
-                        <li class="dropdown activate mobile1">
-                           <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder;" data-toggle="dropdown">products</a>
-                         <ul class="dropdown-menu">
-                                <li style="border-bottom:solid 1px white;"><a href="wire.php">Wires</a></li>                        
-                                <li style="border-bottom:solid 1px white;"><a href="strandedwires.php">Stranded Steel Wires</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="conductor.php">Conductors</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="csteel.php">Construction steel</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="rolled.php">Hot rolled Products</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="steelandpipes.php">Steel and Pipes and Sections</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="electrodes.php">Welding solutions</a></li>
-                                <li style="border-bottom:solid 1px white;"><a href="fabrication.php">Fabrication</a></li>
-                                
-                          </ul>
-                            </li>
+                        
                             
-                            <li class="dropdown">
+                            <!-- <li class="dropdown">
                             <a href="news" style="font-weight:bolder;">News</a>
-                           </li>
+                           </li> -->
 
                            <li class="dropdown">
-                           <a href="brochure.php" style="font-weight:bolder;">Request a brochure</a>
+                           <a href="pdf/Brochure.pdf" style="font-weight:bolder;">Download brochure</a>
                            </li>
                             
                         <li class="dropdown activate">
                            <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder;" data-toggle="dropdown">contact</a>
-                         <ul class="dropdown-menu">
-                                <li style="border-bottom:solid 1px white;"><a href="officeaddress.php">Locations</a></li>
+                         <ul class="dropdown-menu position_submenu">
+                                <li><a href="officeaddress.php">Locations</a></li>
                                 
                                 <li><a href="contact.php">Query</a></li>
                           </ul>
-                            </li>
+                        </li>
                            
                         <!--mega menu end-->    
                     </ul>

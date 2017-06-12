@@ -3,7 +3,7 @@
 <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Nirmal Group</title>
+        <title>Precision Group</title>
 
         <?php
             require_once 'header.php';
@@ -17,7 +17,7 @@
                     <!-- SLIDE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000">
                         <!-- MAIN IMAGE -->
-                        <img src="img/slider/slide_relationship.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="img/slider/slide1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYER NR. 1 -->
                         <div class="caption left-tile-text sfr tp-resizeme"
                              data-x="40"
@@ -117,33 +117,29 @@
 					<br>
                         <h2><strong>What</strong> we do</h2>
                         <span class="center-line"></span>
-                        <p class="sub-text margin40">
-                             </p>
+                        
                     </div>
 					<p class="sub-text margin40">
-					Nirmal Group is a $70 million enterprise with state of the art manufacturing for GI Wires, Conductors, Hot Rolled products and construction steel.
-
-                    It has over 500 employees working in 7 facilities and 1 office in 5 locations, handling more than 2000 customers from various industries.                
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.               
 					</p>
-					<div class="divide80"></div>
                 </div>
 
             </div>
 
             <div class="row">
-                 <div class="col-md-3 col-sm-6 margin30">
+                 <div class="col-md-4 col-sm-6 margin30">
                     <div class="colored-boxed blue">
                         <i class="fa fa-globe"></i>
                         <h3>Global Presence</h3>
                         <span class="center-line"></span>
                         <p>
-                            Selling in more than 25 countries globally.
+                            Selling in more than 25 countries<br> globally.
                         </p>
                     </div>
-                </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
+                 </div><!--colored boxed col end-->
+                <div class="col-md-4 col-sm-6 margin30">
                     <div class="colored-boxed blue">
-                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-thumbs-up"></i>
                         <h3>Approvals</h3>
                         <span class="center-line"></span>
                         <p>
@@ -151,7 +147,7 @@
                         </p>
                     </div>
                 </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
+                <!-- <div class="col-md-3 col-sm-6 margin30">
                     <div class="colored-boxed blue">
                         <i class="fa fa-thumbs-up"></i>
                         <h3>Quality</h3>
@@ -160,14 +156,14 @@
                             ISO 9001:2008 certified.
                         </p>
                     </div>
-                </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
+                </div> --><!--colored boxed col end-->
+                <div class="col-md-4 col-sm-6 margin30">
                     <div class="colored-boxed blue">
                         <i class="fa fa-th-large"></i>
                         <h3>Wide Range</h3>
                         <span class="center-line"></span>
                         <p>
-                            More than 100 products across categories.
+                            More than 100 products across<br> categories.
                         </p>
                     </div>
                 </div><!--colored boxed col end-->
@@ -179,22 +175,13 @@
         <section class="fun-fact-wrap fun-facts-bg">
             <div class="container">               
                 <div class="row">
-                    <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">2000</span> +</h3>
-                        <h4>Happy Customers</h4>
+                    <div class="col-sm-9 margin20 facts-in">                      
+                        <h4>Download brochure</h4>
+                        <p class="style_p">Come join us and great opportunity to help build a better tomorrow.</p>
                     </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
-                        <h3>$<span class="counter">70</span> M</h3>
-                        <h4>turnover</h4>
-                    </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">40</span> % YOY</h3>
-                        <h4>Growth</h4>
-                    </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">1000</span> +</h3>
-                        <h4>Jobs Created</h4>
-                    </div><!--facts in-->
+                    <div class="col-sm-3">
+                        <a href="career" class="btn border-theme btn-lg">Download</a>
+                    </div>
                 </div>
             </div>
         </section><!--fun facts-->
@@ -260,7 +247,7 @@
                     </div>
                 </div>
             </div>
-        </div><!--wide image showcase end-->
+        </div><!-wide image showcase end-->
 
         <!-- team -->
         <div class="our-team-v-2">
@@ -268,13 +255,18 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading">
-                            <h2>Our <strong>Team</strong></h2>
-                            <span class="center-line"></span>
+                            <h2 class="style_h">Our <strong>Products</strong></h2>
+                            <span class="center-line1"></span>
                         </div>
                     </div>                   
                 </div>
                 <div class="row">
-                    <div class="col-sm-3 text-center">
+
+                    <p class="sub-text margin40 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.               
+                    </p>
+
+                    <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
                             <img src="img/management/ram_autar_saraf1.jpg" class="img-responsive management" alt="">
                             <div class="person-desc-v2">
@@ -286,7 +278,7 @@
                             </div>
                         </div>
                     </div><!--person col end-->
-                    <div class="col-sm-3 text-center">
+                    <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
                             <img src="img/management/nirmalsaraf.png" class="img-responsive management" alt="">
                             <div class="person-desc-v2">
@@ -298,7 +290,7 @@
                             </div>
                         </div>
                     </div><!--person col end-->
-                     <div class="col-sm-3 text-center">
+                     <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
                             <img src="img/raman.jpg" class="img-responsive management" alt="">
                             <div class="person-desc-v2">
@@ -310,7 +302,7 @@
                             </div>
                         </div>
                     </div><!--person col end-->
-                    <div class="col-sm-3 text-center">
+                    <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
                             <img src="img/management/piyush_saraf.png" class="img-responsive management" alt="">
                             <div class="person-desc-v2">
@@ -377,7 +369,7 @@
             </div>
         </div><!--testimonials v-2 end
         <div class="divide70"></div>-->
-        <div class="intro-text-1 light">
+        <!-- <div class="intro-text-1 light">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8">
@@ -393,7 +385,7 @@
                     </div>
                 </div>
             </div>
-        </div> <!--intro text end-->
+        </div> --> <!--intro text end-->
 <?php
     require_once 'footer.php';
 ?>

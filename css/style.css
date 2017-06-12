@@ -18,7 +18,7 @@ text-align:justify;
 padding: 0px 20px;
 }
 .activate:hover{
-background-color:#004474;
+background-color:#0492B6;
 color:white;
 font-weight:bolder;
 }
@@ -200,7 +200,7 @@ p {
   color: #555;
   line-height: 24px;
   margin: 0 0 20px;
-  font: 400 14px/21px 'Open Sans', Arial, sans-serif, Helvetica;
+  font: 400 14px/21px 'Raleway', sans-serif;
   font-weight: 400;
   text-align: justify; }
 
@@ -234,6 +234,14 @@ p.sub-text {
 .center-line {
   display: inline-block;
   width: 70px;
+  height: 1px;
+  border-top: 1px solid #bbb;
+  /* border-bottom: 1px solid $skincolor; */
+  margin: auto; }
+
+  .center-line1 {
+  display: inline-block;
+  width: 50%;
   height: 1px;
   border-top: 1px solid #bbb;
   /* border-bottom: 1px solid $skincolor; */
@@ -389,7 +397,8 @@ p.sub-text {
   margin-bottom: 0;
   width: 100%;
   min-height: 70px;
-  padding: 10px 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
   -moz-box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
   -ms-box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
@@ -435,7 +444,7 @@ p.sub-text {
 /*======dropdowm menu=========*/
 /*============================*/
 .navbar .dropdown-menu{
-background-color:#004474;
+background-color:#0492B6;
 }
 .navbar .drop{
   padding: 0px;
@@ -573,7 +582,7 @@ color:#004474!important;  }
 
 .btn-lg {
   padding: 14px 28px 13px 28px;
-  font-size: 13px;
+  font-size: 19px;
   font-weight: 700; }
 
 .btn:focus, .btn:hover {
@@ -641,14 +650,15 @@ color:#004474!important;  }
 
 .border-theme {
   border: 1px solid #4f82e9;
-  color: #4f82e9;
+  color: #0492B6;
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  background: white; }
 
 .border-theme:hover {
-  background-color: #4f82e9;
+  background-color: #1bb2cc;
   border-color: #4f82e9;
   color: #fff; }
 
@@ -1254,8 +1264,20 @@ h1.typed-text {
   font-size: 16px; }
 
 /***colored boxed**************/
-.colored-boxed {
-  text-align: center; }
+.colored-boxed 
+{
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  padding:10px;
+  transition: all 300ms ease-in;
+
+}
+
+.colored-boxed:hover
+
+{
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.15);
+}
 
 .colored-boxed i {
   width: 70px;
@@ -1279,8 +1301,9 @@ h1.typed-text {
   border-color: #333; }
 
 .colored-boxed.blue i {
-  color: #3b5998;
-  border-color: #3b5998; }
+    color: #ffffff;
+    border-color: #0391B5;
+    background: #0391B5;}
 
 .colored-boxed.red i {
   color: #cb2027;
@@ -1711,7 +1734,7 @@ ul.post-desc li + li {
 /************************************************* css for footers****************************************/
 /* #footer is by default*/
 #footer {
-  background: #111;
+  background: #0492B6;
   font-size: 0.9em;
   padding: 80px 0 0;
   position: relative;
@@ -1763,7 +1786,7 @@ ul.post-desc li + li {
 .footer-btm {
   margin-top: 30px;
   padding: 20px;
-  background-color: #0c0c0c;
+  background-color: #005E77;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px; }
 
@@ -1904,11 +1927,11 @@ ul.post-desc li + li {
 .fun-fact-wrap {
   background: url(../img/showcase-4.jpg);
   background-repeat: repeat !important;
-  padding-top: 100px;
-  padding-bottom: 70px; }
+  padding-top: 40px;
+  padding-bottom: 20px; }
 
 .facts-in {
-  text-align: center; }
+  text-align: left; }
 
 .facts-in h3 {
   margin-bottom: 25px;
@@ -1924,9 +1947,10 @@ ul.post-desc li + li {
 .facts-in h4 {
   margin-bottom: 0px;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase; }
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.9em; }
 
 @media (max-width: 992px) {
   .facts-in {
@@ -3319,7 +3343,7 @@ ASSAN SHOP CSS STARTS FROM BELOW
   font-style: normal; }
 
 .fun-facts-bg {
-  background: #4f82e9; }
+  background: #0492B6; }
 
 /***theme features box***/
 .assan-box {
@@ -3839,7 +3863,7 @@ table td, th
 img.management
 {
   height: 263px;
-  width: 263px;
+  width: 290px;
 }
 img.img-header
 {
@@ -3864,4 +3888,58 @@ img.img-header
     .smallside {
         display: none;
     }
+}
+
+
+.pad_head
+{
+  /*padding-top: 9px;*/
+}
+
+.position_submenu
+{
+  right: auto !important;
+  left: 0 !important;
+  /*margin-top: 20px !important;*/
+}
+
+
+@media (min-width: 768px)
+
+{
+  .navbar-nav>li>a 
+  {
+
+      padding-top: 25px !important;
+      padding-bottom: 35px !important;
+      padding-right: 30px;
+  }
+
+}
+
+.navbar-nav>li>.dropdown-menu 
+
+{
+    /*margin-top: 10px !important;*/
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.style_p
+
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.style_h
+{
+  font-weight: 200 !important;
+}
+
+.nopad
+{
+  padding-right: 0px;
+  padding-left: 0px;
 }
