@@ -3,7 +3,11 @@
 <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Nirmal Group</title>
+        <title>Precision Group</title>
+
+
+        
+
 
         <?php
             require_once 'header.php';
@@ -11,15 +15,25 @@
         <!--top bar end hidden in small devices-->
         <!--navigation -->
         <!-- Static navbar -->
+
+        <div class="col-sm-12">
+            <div id="map-canvas"></div>
+        </div>
+
+
+        <div class="col-sm-12">
+            <p style="font-size:250%;"><center>CONTACT <b>US</b></center></p>
+            <hr>
+        </div>
+
+
         <div class="divide80"></div>
         <div class="container">
             <div class="row">
-            <?php
-                    require_once 'contact_sidebar.php';
-                ?>
-                <div class="side">
-                <div class="col-sm-9 comfort">
-                    <h3 class="heading">Contact us</h3>
+            
+                
+                <div class="col-sm-6 pull-right">
+                    <h3 class="heading" style="color:#0492B6;">Contact FORM</h3>
                     
                     
                     <div class="form-contact">
@@ -83,35 +97,71 @@
                             <br>
                             <div id="success"></div>
                             <div class="row">
-                                <div class="form-group col-xs-12">
+                                <div class="form-group col-xs-12" style="color:#0492B6;">
                                     <button type="submit" class="btn btn-theme-bg btn-lg sendEnquiry" id="sendEnquiry">Send Message</button>
                                 </div>
                             </div>
                         </div>
-
                     </div><!--contact form-->
-                    <div id="sent"></div>
-                    <div id="unsent"></div>
-                </div>
-                <div class="col-sm-9 comfort" style="margin-top: 50px">
-                    <h3 class="heading">Contact info</h3>
-                    <ul class="list-unstyled contact-info">
-                        <li><p><strong><i class="fa fa-map-marker"></i> Address: </strong>"Rudramani" 1720,Laskarhat EM Bypass Kolkata - 700 039</p></li> 
-                        <li><p><strong><i class="fa fa-envelope"></i> Mail Us: </strong><a href="mailto:info@groupnirmal.com">info@groupnirmal.com</a></p></li>
-                        <li> <p><strong><i class="fa fa-phone"></i> Phone: </strong>+91-33-6622-4848</p></li>
-                    </ul>
-                    <div class="divide40"></div>
-                    <h4>Get social</h4>
-                    <ul class="list-inline social-1">
-                        <li><a href="https://www.facebook.com/groupnirmal/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/6587187?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A6587187%2Cidx%3A1-1-1%2CtarId%3A1454825366290%2Ctas%3Anirmal%20group%20of%20companie" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-                    </ul>
-                </div>
+                    <div class="col-sm-6">
+                        <h3 class="heading" style="color:#0492B6;">ADDRESS</h3>
+                        <label>22B Rabindra Sarani,Room:</label><br>
+                        <label>FN 23,1st Floor,Kolkata,</label><br>
+                        <label>West Bengal 700073</label><br><br>
+
+                        <h3 class="heading" style="color:#0492B6;">CONTACTS</h3>
+                        <label>Email:info@pwl.com</label><br>
+                        <label>+91 02658 48565</label><br>
+                        <label>+91 25658 58565</label><br><br>  
+
+                        <h3 class="heading" style="color:#0492B6;">WHY US</h3>
+                        <label></label><br>
+                        
+                    </div>                    
+                </div>       
             </div>
-        </div>
         </div>
         <div class="divide40"></div>
 <?php
     require_once 'footer.php';
 ?>
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript">
+            var myLatlng;
+            var map;
+            var marker;
+
+            function initialize() {
+                myLatlng = new google.maps.LatLng(22.5188393, 88.3971152);
+
+                var mapOptions = {
+                    zoom: 15,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: false,
+                    draggable: false
+                };
+                map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+                var contentString = '<p style="line-height: 20px;"><strong>assan Template</strong></p><p>Vailshali, assan City, 302012</p>';
+
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+
+                marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: 'Marker'
+                });
+
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open(map, marker);
+                });
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
