@@ -6,9 +6,6 @@
         <title>Precision Group</title>
 
 
-        
-
-
         <?php
             require_once 'header.php';
         ?>
