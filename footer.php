@@ -3,65 +3,46 @@
             <div class="container">
                  <div class="row">
 
-                    <h3 class="color_style">SITE MAP
-                        <br><span class="center-line"></span>
-                    </h3>
+                    
                     
 
-                    <div class="col-sm-3 line_height">
-
-                                    <h5 ><a class="color_footer a_transition_footer" href="/"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> HOME</a></h5>
-
-                                    <h5><a class="color_footer a_transition_footer" href="about"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> ABOUT US</a></h5>
+                    <div class="col-sm-4 line_height">
 
                                     
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="mission_vision">Misson - Vision</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="core_value">Core Values</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="management">Management</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="brochure">Download Brochure</a></h5>     
+                         <h3 class="color_style">ABOUT <b>PWL</b>
+                                <br><span class="center-line2"></span>
+                         </h3>
+                                    
+                        <p class="p_style1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>                         
                     </div><!--footer col-->
 
-                    <div class="col-sm-3 line_height1">
+                    
 
-                                    <h5 ><a class="color_footer a_transition_footer" href="other_services"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> BUSINESS STRATEGY</a></h5>
+                    <div class="col-sm-4 line_height">
 
-                                    <h5><a class="color_footer a_transition_footer" href="careers"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> CAREERS</a></h5>
-
-                                    <h5><a class="color_footer a_transition_footer" href="contact"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> CONTACT US</a></h5>
-                    </div><!--footer col-->
-
-                    <div class="col-sm-3">
-
-                                    <h5 ><a class="color_footer a_transition_footer" href="#"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>   SERVICES</a></h5>
-
-                                        
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="data_entry">Data Entry Services</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="e_support">E-Support Services</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="finance_accounting">Finance &amp; Accounting<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management Services</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="data_entry">Data Conversion Services</a></h5>
-
-                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="e_support">Call Center Services</a></h5>
-
-                                            <!-- <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="download_brochure">Download Brochure</a></h5> -->
+                                    
+                         <h3 class="color_style">QUICK <b>LINKS</b>
+                                <br><span class="center-line2"></span>
+                         </h3>
+                                    
+                        <ul class="list-unstyled contact">
+                                <li class="li_footer"> <a href="/">HOME</a></li>
+                                <li class="li_footer"> <a href="news">ABOUT US</a></li>
+                                <li class="li_footer"> <a href="career">PRODUCTS</a></li>
+                                <li class="li_footer"> <a href="#">DOWNLOAD BROCHURE</a></li>
+                                <li class="li_footer"> <a href="contact">CONTACT US</a></li>                           
+                            </ul>                         
                     </div><!--footer col-->
 
 
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 line_height">
 
-                                <h5 ><a class="color_footer a_transition_footer" href="#"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> QUALITY &AMP; POLICY</a></h5>
-
-                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="manpower_resource">Manpower Resources</a></h5>
-
-                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="retention_strategy">Retention Strategy</a></h5>
-
-                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="quality_control">Quality Control</a></h5>
-                                </div><!--footer col-->
+                                    
+                         <h3 class="color_style">CONTACT <b>US</b>
+                                <br><span class="center-line2"></span>
+                         </h3>
+                                    
+                        <p class="p_style1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>                         
                     </div>
                     
                 <div class="row">
