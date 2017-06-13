@@ -268,47 +268,22 @@
 
                     <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
-                            <img src="img/management/ram_autar_saraf1.jpg" class="img-responsive management" alt="">
-                            <div class="person-desc-v2">
-                                <h3>Mr. Ram Autar Saraf</h3>
-                                <em>Founder and Chairman</em>
-                                <ul class="list-inline top-social">
-                                    
-                                </ul>
-                            </div>
+                            <img src="img/products/1.jpg" class="img-responsive management" alt="">
                         </div>
                     </div><!--person col end-->
                     <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
-                            <img src="img/management/nirmalsaraf.png" class="img-responsive management" alt="">
-                            <div class="person-desc-v2">
-                                <h3>Mr. Nirmal Saraf</h3>
-                                <em>Managing Director</em>
-                                <ul class="list-inline top-social">
-                                   
-                                </ul>
-                            </div>
+                            <img src="img/products/2.jpg" class="img-responsive management" alt="">
                         </div>
                     </div><!--person col end-->
                      <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
-                            <img src="img/raman.jpg" class="img-responsive management" alt="">
-                            <div class="person-desc-v2">
-                                <h3>Mr. Raman Saraf</h3>
-                                <em>Director - Sales &amp; Operations</em>
-                                <ul class="list-inline top-social">
-                                   
-                                </ul>
-                            </div>
+                            <img src="img/products/3.jpg" class="img-responsive management" alt="">
                         </div>
                     </div><!--person col end-->
                     <div class="col-sm-3 text-center nopad">
                         <div class="person-v2">
-                            <img src="img/management/piyush_saraf.png" class="img-responsive management" alt="">
-                            <div class="person-desc-v2">
-                                <h3>Mr. Piyush Saraf</h3>
-                                <em>Director - Operations</em>
-                            </div>
+                            <img src="img/products/4.jpg" class="img-responsive management" alt="">
                         </div>
                     </div><!--person col end-->
                 </div>

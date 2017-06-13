@@ -2,57 +2,68 @@
         <footer id="footer">
             <div class="container">
                  <div class="row">
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
-                            <h3>Contact Us</h3>
-                            <ul class="list-unstyled contact">
-                                <li><p><strong><i class="fa fa-map-marker"></i>Address:</strong>"Rudramani" 1720,Laskarhat EM Bypass<br> Kolkata - 700 039</p></li> 
-                                <li><p><strong><i class="fa fa-envelope"></i>Mail: </strong> <a href="mailto:contactus@groupnirmal.com">contactus@groupnirmal.com</a></p></li>
-                                <li> <p><strong><i class="fa fa-phone"></i> Phone :</strong>+91-33-6622-4848</p></li>
-                            </ul>
-                        </div>                        
-                    </div><!--footer col-->
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
-                            <h3>Products</h3>
 
-                            <ul class="list-unstyled contact">
-                                <li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="wire.php">Wires</a></p></li>
-                                <li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="conductor.php">Conductors</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="electrodes.php">Welding Solution</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="rolled.php">Hot Rolled products</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="csteel.php">Construction Steel</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="steelandpipes.php">Steel Pipes &amp; Sections</a></p></li>
-							
-                            </ul>
-                        </div>                        
-                    </div><!--footer col-->
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
-                               <h3>Quick Links</h3>
+                    <h3 class="color_style">SITE MAP
+                        <br><span class="center-line"></span>
+                    </h3>
+                    
 
-                            <ul class="list-unstyled contact">
-                                <li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="about">About Us</a></p></li>
-                                <li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="news">News</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="career">Careers</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="#">Request a Brochure</a></p></li>
-								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);"><p> <a href="vision-mission">Vision & Mission</a></p></li>
-		
-							
-                            </ul>
-                        </div>                        
-                    </div><!--footer col-->
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
-                            <h3>Follow Us On</h3>
-                            <ul class="list-inline social-1">
-                                <li><a href="https://www.facebook.com/groupnirmal/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/6587187?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A6587187%2Cidx%3A1-1-1%2CtarId%3A1454825366290%2Ctas%3Anirmal%20group%20of%20companie" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>                        
+                    <div class="col-sm-3 line_height">
+
+                                    <h5 ><a class="color_footer a_transition_footer" href="/"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> HOME</a></h5>
+
+                                    <h5><a class="color_footer a_transition_footer" href="about"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> ABOUT US</a></h5>
+
+                                    
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="mission_vision">Misson - Vision</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="core_value">Core Values</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="management">Management</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="brochure">Download Brochure</a></h5>     
                     </div><!--footer col-->
 
-                </div>
+                    <div class="col-sm-3 line_height1">
+
+                                    <h5 ><a class="color_footer a_transition_footer" href="other_services"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> BUSINESS STRATEGY</a></h5>
+
+                                    <h5><a class="color_footer a_transition_footer" href="careers"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> CAREERS</a></h5>
+
+                                    <h5><a class="color_footer a_transition_footer" href="contact"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> CONTACT US</a></h5>
+                    </div><!--footer col-->
+
+                    <div class="col-sm-3">
+
+                                    <h5 ><a class="color_footer a_transition_footer" href="#"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>   SERVICES</a></h5>
+
+                                        
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="data_entry">Data Entry Services</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="e_support">E-Support Services</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="finance_accounting">Finance &amp; Accounting<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management Services</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="data_entry">Data Conversion Services</a></h5>
+
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="e_support">Call Center Services</a></h5>
+
+                                            <!-- <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="download_brochure">Download Brochure</a></h5> -->
+                    </div><!--footer col-->
+
+
+                    <div class="col-sm-3">
+
+                                <h5 ><a class="color_footer a_transition_footer" href="#"><span class="color_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span> QUALITY &AMP; POLICY</a></h5>
+
+                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="manpower_resource">Manpower Resources</a></h5>
+
+                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="retention_strategy">Retention Strategy</a></h5>
+
+                                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="color_footer a_transition_footer" href="quality_control">Quality Control</a></h5>
+                                </div><!--footer col-->
+                    </div>
+                    
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="footer-btm">

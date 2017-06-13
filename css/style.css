@@ -3862,8 +3862,8 @@ table td, th
 }
 img.management
 {
-  height: 263px;
-  width: 290px;
+  /*height: 263px;*/
+  width: 300px;
 }
 img.img-header
 {
@@ -3942,4 +3942,37 @@ img.img-header
 {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.margin-toggle
+{
+  margin-top: 18px;
+}
+
+.color_style
+{
+  color: white;
+}
+
+.center-line {
+    display: inline-block;
+    width: 55px;
+    border-top: 4px solid #ffffff;
+    margin: auto;
+}
+
+.line_height {
+    line-height: 1.90em;
+}
+
+.line_height1 {
+    line-height: 2.90em;
+}
+
+.color_footer {
+    color: #f3e9e9;
+    font-family: 'Raleway', sans-serif;
+}
+.a_transition_footer {
+    transition: all 200ms ease-in;
 }
