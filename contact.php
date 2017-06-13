@@ -18,10 +18,12 @@
         </div>
 
 
-        <div class="col-sm-12">
+        <div class="col-sm-10 col-sm-offset-1">
             <br><br>
-            <p style="font-size:150%;text-align: center;">CONTACT <b>US</b></p>
-            <hr>
+            <p class="p_style">CONTACT <b>US</b><br>
+                <span class="center-line1"></span>
+            </p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
 
@@ -30,8 +32,27 @@
             <div class="row">
             
                 
-                <div class="col-sm-6 pull-right">
-                    <h3 class="heading" style="color:#0492B6;">Contact FORM</h3>
+                <div class="col-sm-6">
+                        <h3 class="heading address">ADDRESS
+                            <br><span class="center-line1"></span>
+                        </h3>
+                        <label>22B Rabindra Sarani,Room:</label><br>
+                        <label>FN 23,1st Floor,Kolkata,</label><br>
+                        <label>West Bengal 700073</label><br><br>
+
+                        <h3 class="heading address">CONTACTS
+                            <br><span class="center-line1"></span>
+                        </h3>
+                        <label>Email:info@pwl.com</label><br>
+                        <label>+91 02658 48565</label><br>
+                        <label>+91 25658 58565</label><br><br>  
+                </div>
+
+
+                <div class="col-sm-6">
+                    <h3 class="heading address">Contact Form
+                        <br><span class="center-line1"></span>
+                    </h3>
                     
                     
                     <div class="form-contact">
@@ -71,7 +92,6 @@
                                             <p class="help-block"></p>
                                         </div>
                                     </div>
-
                                 </div>
 
                                 <div class="col-md-6">
@@ -84,7 +104,7 @@
                                     </div> 
                                 </div>
                             </div>
-                            </div>
+                        
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 controls">
                                     <label>Message<span>*</span></label>
@@ -92,35 +112,21 @@
                                     <p class="help-block"></p>
                                 </div>
                             </div>
-                            <br>
+            
                             <div id="success"></div>
                             <div class="row">
                                 <div class="form-group col-xs-12" style="color:#0492B6;">
-                                    <button type="submit" class="btn btn-theme-bg btn-lg sendEnquiry" id="sendEnquiry" style="border-radius: 0px; background-color: #0492B6;">Send Message</button>
+                                    <button type="submit" class="btn btn-theme-bg btn-lg sendEnquiry" id="sendEnquiry">Send Message</button>
                                 </div>
                             </div>
                         </div>
-                    </div><!--contact form-->
-
-                    <div class="col-sm-6">
-                        <h3 class="heading" style="color:#0492B6;">ADDRESS</h3>
-                        <label>22B Rabindra Sarani,Room:</label><br>
-                        <label>FN 23,1st Floor,Kolkata,</label><br>
-                        <label>West Bengal 700073</label><br><br>
-
-                        <h3 class="heading" style="color:#0492B6;">CONTACTS</h3>
-                        <label>Email:info@pwl.com</label><br>
-                        <label>+91 02658 48565</label><br>
-                        <label>+91 25658 58565</label><br><br>  
-
-                        <h3 class="heading" style="color:#0492B6;">WHY US</h3>
-                        <label></label><br>
-                        
-                    </div>                    
+                    </div><!--contact form-->                       
                 </div>       
             </div>
         </div>
-        <div class="divide40"></div>
+
+<div class="divide40"></div>
+
 <?php
     require_once 'footer.php';
 ?>
@@ -140,11 +146,11 @@
                     center: myLatlng,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     scrollwheel: false,
-                    draggable: false
+                    draggable: true
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-                var contentString = '<p style="line-height: 20px;"><strong>assan Template</strong></p><p>Vailshali, assan City, 302012</p>';
+                var contentString = '<p style="line-height: 20px;"><strong>Precision Group</strong></p><p>Vailshali, assan City, 302012</p>';
 
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
