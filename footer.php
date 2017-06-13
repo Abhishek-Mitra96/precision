@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="footer-btm">
-                            <span style="color:#CCC;">&copy;2016. Designed &amp; Developed By <a href="http://www.goyalsoftwares.com" style="color:red;" target="_blank">GOYAL SOFTWARES</div></span>
+                            <span style="color:#CCC;">&copy;2016. Designed &amp; Developed By <a class="color_company" href="http://www.goyalsoftwares.com" target="_blank">GOYAL SOFTWARES</div></span>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,17 @@
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
             ga('create', 'UA-47251082-1', 'auto');
-            ga('send', 'pageview');   
+            ga('send', 'pageview'); 
+
+
+            for (var i = 0; i < document.links.length; i++) 
+            {
+                if (document.links[i].href == document.URL) 
+                {
+                    document.links[i].className = 'active';
+                }
+            }
+
         </script>
     </body>
 </html>

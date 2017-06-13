@@ -108,7 +108,7 @@ textarea, label {
   padding: 3px 6px; }
 
 a {
-  color: #333;
+  color: #ffffff;
   -moz-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   -webkit-transition: all 200ms ease-in;
@@ -116,8 +116,13 @@ a {
 
 a:hover,
 a:focus {
-  color: #4f82e9;
+  color: white;
   text-decoration: none; }
+
+  .color_company
+  {
+    color:#a70a0a;
+  }
 
 .colored-text {
   color: #4f82e9; }
@@ -436,6 +441,14 @@ p.sub-text {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #4f82e9; }
+
+  .navbar-default .navbar-nav > li > a.active 
+
+  {
+    background-color: #0492B6;
+    color: white!important;
+  }
+
 
 .navbar-brand img {
   width: 80px;
@@ -3917,8 +3930,9 @@ img.img-header
   {
 
       padding-top: 25px !important;
-      padding-bottom: 35px !important;
+      padding-bottom: 25px !important;
       padding-right: 30px;
+      padding-left: 28px;
   }
 
 }
