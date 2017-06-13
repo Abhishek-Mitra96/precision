@@ -22,7 +22,8 @@
 
 
         <div class="col-sm-12">
-            <p style="font-size:250%;"><center>CONTACT <b>US</b></center></p>
+            <br><br>
+            <p style="font-size:150%;text-align: center;">CONTACT <b>US</b></p>
             <hr>
         </div>
 
@@ -98,7 +99,7 @@
                             <div id="success"></div>
                             <div class="row">
                                 <div class="form-group col-xs-12" style="color:#0492B6;">
-                                    <button type="submit" class="btn btn-theme-bg btn-lg sendEnquiry" id="sendEnquiry">Send Message</button>
+                                    <button type="submit" class="btn btn-theme-bg btn-lg sendEnquiry" id="sendEnquiry" style="border-radius: 0px; background-color: #0492B6;">Send Message</button>
                                 </div>
                             </div>
                         </div>
