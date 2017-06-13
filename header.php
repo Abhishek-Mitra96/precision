@@ -39,6 +39,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right pad_head">
+                        
                         <li class="dropdown">
                             <a href="/" style="font-weight:bolder">Home</a>
                         </li>
@@ -80,13 +81,8 @@
                            <a href="pdf/Brochure.pdf" style="font-weight:bolder;">Download brochure</a>
                            </li>
                             
-                        <li class="dropdown activate">
-                           <a href="#" class="dropdown-toggle js-activated" style="font-weight:bolder;" data-toggle="dropdown">contact</a>
-                         <ul class="dropdown-menu position_submenu">
-                                <li><a href="officeaddress.php">Locations</a></li>
-                                
-                                <li><a href="contact.php">Query</a></li>
-                          </ul>
+                        <li class="dropdown">
+                            <a href="contact" style="font-weight:bolder">Contact</a>
                         </li>
                            
                         <!--mega menu end-->    

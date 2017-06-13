@@ -13,21 +13,24 @@
         <!--navigation -->
         <!-- Static navbar -->
 
-        <div class="col-sm-12">
-            <div id="map-canvas"></div>
-        </div>
+        
+        <div id="map-canvas"></div>
 
 
         <div class="col-sm-10 col-sm-offset-1">
-            <br><br>
+            
+            <div class="divide40"></div>
+
             <p class="p_style">CONTACT <b>US</b><br>
                 <span class="center-line1"></span>
             </p>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="divide40"></div>
         </div>
 
 
-        <div class="divide80"></div>
+        
+
         <div class="container">
             <div class="row">
             
@@ -132,7 +135,7 @@
 ?>
 
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCz8t5wZdjOSVneN3KCRnfJhiFxNDokJvQ"></script>
         <script type="text/javascript">
             var myLatlng;
             var map;
