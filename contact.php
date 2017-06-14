@@ -91,7 +91,7 @@
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 controls">
                                             <label>Mobile<span>*</span></label>
-                                            <input type="text" class="form-control" placeholder="Name" id="mobile" required data-validation-required-message="Please enter your name.">
+                                            <input type="text" class="form-control" placeholder="Mobile No." id="mobile" required data-validation-required-message="Please enter your name.">
                                             <p class="help-block"></p>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 controls">
                                             <label>Subject<span>*</span></label>
-                                            <input type="email" class="form-control" placeholder="Email Address" id="subject" required data-validation-required-message="Please enter your email address.">
+                                            <input type="email" class="form-control" placeholder="Subject line" id="subject" required data-validation-required-message="Please enter your email address.">
                                             <p class="help-block"></p>
                                         </div>
                                     </div> 
@@ -111,7 +111,7 @@
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 controls">
                                     <label>Message<span>*</span></label>
-                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea rows="5" class="form-control" placeholder="Enter your message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block"></p>
                                 </div>
                             </div>

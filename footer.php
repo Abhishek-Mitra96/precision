@@ -21,28 +21,34 @@
                     <div class="col-sm-4 line_height">
 
                                     
-                         <h3 class="color_style">QUICK <b>LINKS</b>
+                         <h3 class="color_style">Quick <b>Links</b>
                                 <br><span class="center-line2"></span>
                          </h3>
                                     
                         <ul class="list-unstyled contact">
-                                <li class="li_footer"> <a href="/">HOME</a></li>
-                                <li class="li_footer"> <a href="news">ABOUT US</a></li>
-                                <li class="li_footer"> <a href="career">PRODUCTS</a></li>
-                                <li class="li_footer"> <a href="#">DOWNLOAD BROCHURE</a></li>
-                                <li class="li_footer"> <a href="contact">CONTACT US</a></li>                           
-                            </ul>                         
+                                <li class="li_footer"> <a class="a_footer" href="/">HOME</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="news">ABOUT US</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="career">PRODUCTS</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="#">DOWNLOAD BROCHURE</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="contact">CONTACT US</a></li>                           
+                        </ul>                         
                     </div><!--footer col-->
 
 
                     <div class="col-sm-4 line_height">
 
                                     
-                         <h3 class="color_style">CONTACT <b>US</b>
+                         <h3 class="color_style">Contact <b>Us</b>
                                 <br><span class="center-line2"></span>
                          </h3>
                                     
-                        <p class="p_style1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>                         
+                         <ul class="list-unstyled contact">
+                            
+                            <li class="li_footer"> 22B,Rabindra Sarani, Room:<br>FN-23,1st Floor Kolkata,<br>West Bengal 7000073</li>
+                            <li class="li_footer">Phone<br>+919902647889<br>+918897456980</li>
+                            <li class="li_footer">Email <br><a class="a_footer" href="mailto:info@pwl.com" target="_top">info@pwl.com</a></li>
+                            <li class="li_footer"> Web<br><a class="a_footer" href="#">www.pwl.com</a></li>
+                        </ul>                         
                     </div>
                     
                 <div class="row">

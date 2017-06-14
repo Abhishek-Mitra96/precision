@@ -129,6 +129,11 @@ a:focus {
     color:#ffffff;
   }
 
+  a:hover.a_footer
+  {
+    color: #e21818!important;
+  }
+
 .colored-text {
   color: #4f82e9; }
 
@@ -1799,7 +1804,7 @@ ul.post-desc li + li {
   font-family: 'Raleway',sans-serif; }
 
 .contact a:hover {
-  color: #4f82e9; }
+  color: #e21818; }
 
 .f2-work li {
   margin: 2px; }
@@ -3992,10 +3997,16 @@ img.img-header
 .li_footer
 {
   border-bottom: 2px solid rgba(255, 255, 255, 0.19);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   padding: 7px;
+  color: white;
 
+}
+
+a:hover.li_footer
+{
+  color: black;
 }
 
 .p_style1
