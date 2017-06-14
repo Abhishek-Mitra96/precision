@@ -27,9 +27,9 @@
                                     
                         <ul class="list-unstyled contact">
                                 <li class="li_footer"> <a class="a_footer" href="/">HOME</a></li>
-                                <li class="li_footer"> <a class="a_footer" href="news">ABOUT US</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="about">ABOUT US</a></li>
                                 <li class="li_footer"> <a class="a_footer" href="career">PRODUCTS</a></li>
-                                <li class="li_footer"> <a class="a_footer" href="#">DOWNLOAD BROCHURE</a></li>
+                                <li class="li_footer"> <a class="a_footer" href="pdf/Brochure.pdf" target="_blank">DOWNLOAD BROCHURE</a></li>
                                 <li class="li_footer"> <a class="a_footer" href="contact">CONTACT US</a></li>                           
                         </ul>                         
                     </div><!--footer col-->
@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="footer-btm">
-                            <span style="color:#CCC;">&copy;2016. Designed &amp; Developed By <a class="color_company" href="http://www.goyalsoftwares.com" target="_blank">GOYAL SOFTWARES</div></span>
+                            <span style="color:#CCC;">&copy;2017. Designed &amp; Developed By <a class="color_company" href="http://www.goyalsoftwares.com" target="_blank">GOYAL SOFTWARES</div></span>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,6 @@
                     document.links[i].className = 'active';
                 }
             }
-
         </script>
     </body>
 </html>

@@ -180,7 +180,7 @@
                         <p class="style_p">Come join us and great opportunity to help build a better tomorrow.</p>
                     </div><!--facts in-->
                     <div class="col-sm-3">
-                        <a href="career" class="btn border-theme btn-lg">Download</a>
+                        <a href="pdf/Brochure.pdf" target="_blank" role="button" class="btn border-theme btn-lg">Download</a>
                     </div>
                 </div>
             </div>

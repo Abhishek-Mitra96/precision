@@ -121,7 +121,7 @@ a:focus {
 
   .color_company
   {
-    color:#4ce600;
+    color:#a70a0a;
   }
 
   a:hover.color_company
@@ -439,7 +439,7 @@ p.sub-text {
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: white;
-  background-color: transparent; }
+  background-color: #0492B6; }
 
 .navbar-brand {
   font-weight: 700;
@@ -458,7 +458,8 @@ p.sub-text {
   font-family: 'Raleway', sans-serif; }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4f82e9; }
+  color: white;
+  background-color: #0492B6;  }
 
   .navbar-default .navbar-nav > li > a.active 
 
@@ -475,7 +476,8 @@ p.sub-text {
 /*======dropdowm menu=========*/
 /*============================*/
 .navbar .dropdown-menu{
-background-color:#0492B6;
+background-color:white;
+color: #444;
 }
 .navbar .drop{
   padding: 0px;
@@ -493,7 +495,7 @@ background-color:#0492B6;
   min-width: 244px !important; }
 
 .navbar .dropdown-menu li a {
-  color: white!important;
+  color:#444;
   font-size: 13px;
   font-weight: 600;
   padding: 9px 16px;
@@ -505,8 +507,8 @@ background-color:#0492B6;
   margin-top: 6px; }
 
 .navbar .dropdown-menu li a:hover {
-  background-color:white ;
-color:#004474!important;  }
+  background-color:#0492B6 ;
+color:#fff!important;  }
 
 /* Mega MENU */
 .yamm-content {
@@ -3939,6 +3941,7 @@ img.img-header
   right: auto !important;
   left: 0 !important;
   /*margin-top: 20px !important;*/
+  padding-top: 0px !important;
 }
 
 

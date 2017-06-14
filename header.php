@@ -78,7 +78,7 @@
                            </li> -->
 
                            <li class="dropdown">
-                           <a href="pdf/Brochure.pdf" style="font-weight:bolder;">Download brochure</a>
+                           <a href="pdf/Brochure.pdf" target="_blank" style="font-weight:bolder;">Download brochure</a>
                            </li>
                             
                         <li class="dropdown">
