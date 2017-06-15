@@ -1,8 +1,8 @@
      <div class="col-md-3 sidebar">
                         <ul class="list-unstyled cat-list">
                             <li> <a href="#" style="color:#004474;font: 400 20px/20px 'Open Sans', Arial, sans-serif, Helvetica;">Products</a> <i class="fa fa-angle-right"></i></li>
-							  <ul>
-							    <li><a href="wire.php">Wires</a></li>
+							  <ul style="padding-left: 0px;list-style-type: none;">
+							    <li><a href="products.php">Wires</a></li>
 							    <li><a href="strandedwires.php">Stranded Steel Wires</a></li>
 								<li><a href="conductor.php">Conductors</a></li>
 								<li><a href="csteel.php">Construction Steel</a></li>
@@ -12,4 +12,4 @@
 								<li><a href="fabrication.php">Fabrication</a></li>
 							  </ul>
                         </ul>
-                </div><!--sidebar col end-->
+    </div><!--sidebar col end-->

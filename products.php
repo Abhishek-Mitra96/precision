@@ -3,7 +3,7 @@
 <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Nirmal Group</title>
+        <title>Precision Group</title>
 
         <?php
             require_once 'header.php';
@@ -11,13 +11,13 @@
         <div class="divide80"></div>
         <div class="container">
 
-            <div class="row">
+            <div class="row back">
            <?php require_once 'side.php';?>
            <div class="side">
                 <div class="col-sm-9 comfort">
 				  <div class="row">
                         <div class="col-sm-12">
-			             <h3 style="color:#004474;font: 400 20px/20px 'Open Sans', Arial, sans-serif, Helvetica;">Conductors</h3>
+			             <h3>Conductors</h3>
                             <p>
                                 <img src="img/conductor_header.jpg" class="img-rounded img-responsive img-header">
                             </p>

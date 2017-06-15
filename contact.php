@@ -39,16 +39,29 @@
                         <h3 class="heading address">ADDRESS
                             <br><span class="center-line1"></span>
                         </h3>
-                        <label>22B Rabindra Sarani,Room:</label><br>
-                        <label>FN 23,1st Floor,Kolkata,</label><br>
-                        <label>West Bengal 700073</label><br><br>
+                        <label>46C, CHOWRINGHEE ROAD, FLAT-14G,</label><br>
+                        <label>EVEREST HOUSE,KOLKATA-700071, INDIA.</label><br><br>
+                        <!-- <label>West Bengal 700073</label><br><br> -->
+                        <label>PRECISION WELDARC LTD<br> UNIT-1
+                               49, B.T. ROAD, PANIHATI,<br> 24 PARGANAS(NORTH)
+                                KOLKATA-743176, INDIA</label><br><br>
+
+                        <label>PRECISION WELDARC LTD<br> UNIT-2
+                               "DHULAGARH INDUSTRIAL PARK",<br> JALADHULAGORI, NH-6,<br> HOWRAH-711302, INDIA</label><br><br>
+
+                        <label>PRECISION WELDARC LTD<br> WAREHOUSE
+                               "DHULAGARH INDUSTRIAL PARK",<br> JALADHULAGORI, NH-6, HOWRAH-711302, INDIA</label><br><br>
+
+                        <label>PRECISION WELDCON LLP<br> UNIT-1
+                               PLOT NO. N-130, C.G.G.C. AKOLKA INDUSTRIAL<br> AREA, DIST. AKOLKA, MAHARASHTRA, INDIA</label><br><br>
+
 
                         <h3 class="heading address">CONTACTS
                             <br><span class="center-line1"></span>
                         </h3>
-                        <label>Email:info@pwl.com</label><br>
-                        <label>+91 02658 48565</label><br>
-                        <label>+91 25658 58565</label><br><br>  
+                        <label><a class="a_footer" href="mailto:info@groupprecision.com" target="_top" style="color:black;">info@groupprecision.com</a></label><br>
+                        <label>+91-33-40033324/25/5570</label><br>
+                        <label> +91-33-30535006</label><br><br>  
                 </div>
 
 

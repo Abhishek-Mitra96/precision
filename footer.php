@@ -44,9 +44,9 @@
                                     
                          <ul class="list-unstyled contact">
                             
-                            <li class="li_footer"> 22B,Rabindra Sarani, Room:<br>FN-23,1st Floor Kolkata,<br>West Bengal 7000073</li>
-                            <li class="li_footer">Phone<br>+919902647889<br>+918897456980</li>
-                            <li class="li_footer">Email <br><a class="a_footer" href="mailto:info@pwl.com" target="_top">info@pwl.com</a></li>
+                            <li class="li_footer">CORPORATE OFFICE :<br>46C, CHOWRINGHEE ROAD, FLAT-14G,<br> EVEREST HOUSE,KOLKATA-700071, INDIA.</li>
+                            <li class="li_footer">Phone : +91-33-40033324/25/5570<br>Fax : +91-33-30535006</li>
+                            <li class="li_footer">Email <br><a class="a_footer" href="mailto:info@groupprecision.com" target="_top">info@groupprecision.com</a></li>
                             <li class="li_footer"> Web<br><a class="a_footer" href="#">www.pwl.com</a></li>
                         </ul>                         
                     </div>
@@ -83,6 +83,18 @@
         <script src="js/waypoints.min.js"></script>
         <!--digit countdown plugin-->
         <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+
+        <script>
+
+
+            for (var i = 0; i < document.links.length; i++) 
+            {
+                if (document.links[i].href == document.URL) 
+                {
+                    document.links[i].className = 'active';
+                }
+            }
+        </script>
 
     </body>
 </html>
