@@ -70,21 +70,6 @@
                         </div>
                         
                     </li>
-                    <!-- SLIDE 
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000">
-                        <!-- MAIN IMAGE
-                        <img src="img/slider/slide3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-
-                        <div class="caption text-center-top sft"
-                             data-x="right"
-                             data-y="210"
-                             data-speed="1000"
-                             data-start="1400"
-                             data-easing="easeOutExpo">
-                            Powering more than <br><br>10,000 villages in India
-                        </div>
-
-                    </li>-->
                     <!-- SLIDE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000">
                         <!-- MAIN IMAGE -->

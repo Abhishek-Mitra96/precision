@@ -140,7 +140,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #272974;
+  /*color: #272974;*/
   font-weight: 700;
   margin: 0;
   font-family: 'Raleway', sans-serif; }
@@ -1353,8 +1353,8 @@ h1.typed-text {
 
 .colored-boxed.blue i {
     color: #ffffff;
-    border-color: #0391B5;
-    background: #0391B5;}
+    border-color: #272974;
+    background: #272974;}
 
 .colored-boxed.red i {
   color: #cb2027;
@@ -1838,7 +1838,7 @@ ul.post-desc li + li {
 .footer-btm {
   margin-top: 30px;
   padding: 20px;
-  background-color: #005E77;
+  background-color: #22005c;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px; }
 
@@ -4043,7 +4043,7 @@ a:hover.li_footer
 .center-line {
     display: inline-block;
     width: 55px;
-    border-top: 4px solid #ffffff;
+    /*border-top: 4px solid #ffffff;*/
     margin: auto;
 }
 

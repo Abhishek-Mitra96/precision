@@ -69,13 +69,6 @@
                           </ul>
                         </li> <!--menu Features li end here-->
 
-                        <!-- product dropdown for mobiles -->
-                        
-                        
-                            
-                            <!-- <li class="dropdown">
-                            <a href="news" style="font-weight:bolder;">News</a>
-                           </li> -->
 
                            <li class="dropdown">
                            <a href="pdf/Brochure.pdf" target="_blank" style="font-weight:bolder;">Download brochure</a>
