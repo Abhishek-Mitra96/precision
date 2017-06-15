@@ -18,7 +18,7 @@ text-align:justify;
 padding: 0px 20px;
 }
 .activate:hover{
-background-color:#0492B6;
+background-color:#272974;
 color:white;
 font-weight:bolder;
 }
@@ -121,13 +121,14 @@ a:focus {
 
   .color_company
   {
-    color:#a70a0a;
+    color:#fff;
+    font-weight: bold; 
   }
 
-  a:hover.color_company
+  /*a:hover.color_company
   {
     color:#ffffff;
-  }
+  }*/
 
   a:hover.a_footer
   {
@@ -439,7 +440,7 @@ p.sub-text {
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: white;
-  background-color: #0492B6; }
+  background-color: #272974; }
 
 .navbar-brand {
   font-weight: 700;
@@ -459,12 +460,12 @@ p.sub-text {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
-  background-color: #0492B6;  }
+  background-color: #272974;  }
 
   .navbar-default .navbar-nav > li > a.active 
 
   {
-    background-color: #0492B6;
+    background-color: #272974;
     color: white!important;
   }
 
@@ -507,7 +508,7 @@ color: #444;
   margin-top: 6px; }
 
 .navbar .dropdown-menu li a:hover {
-  background-color:#0492B6 ;
+  background-color:#272974 ;
 color:#fff!important;  }
 
 /* Mega MENU */
@@ -631,7 +632,7 @@ color:#fff!important;  }
   
     border-color: #4f82e9;
     color: #fff;
-    background-color: #0492B6;
+    background-color: #272974;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -689,7 +690,7 @@ color:#fff!important;  }
 
 .border-theme {
   border: 1px solid #4f82e9;
-  color: #0492B6;
+  color: #272974;
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -1773,7 +1774,7 @@ ul.post-desc li + li {
 /************************************************* css for footers****************************************/
 /* #footer is by default*/
 #footer {
-  background: #0492B6;
+  background: #272974;
   font-size: 0.9em;
   padding: 80px 0 0;
   position: relative;
@@ -2093,7 +2094,7 @@ ul.post-desc li + li {
 
 .our-team-v-2 {
   padding-top: 70px;
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding-bottom: 40px; }
 
 .person-v2 img {
@@ -3383,7 +3384,7 @@ ASSAN SHOP CSS STARTS FROM BELOW
   font-style: normal; }
 
 .fun-facts-bg {
-  background: #0492B6; }
+  background: #272974; }
 
 /***theme features box***/
 .assan-box {
@@ -4048,6 +4049,6 @@ a:hover.li_footer
 
 .address
 {
-  color:#0492B6 !important;
+  color:#272974 !important;
   font-size: 20px !important;
 }
